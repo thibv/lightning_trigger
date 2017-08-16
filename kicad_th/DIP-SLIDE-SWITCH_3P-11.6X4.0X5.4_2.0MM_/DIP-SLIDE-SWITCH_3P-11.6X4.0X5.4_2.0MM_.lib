@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DIP-SLIDE-SWITCH(3P-11.6X4.0X5.4+2.0MM)
+#
+DEF DIP-SLIDE-SWITCH(3P-11.6X4.0X5.4+2.0MM) SW 0 40 Y Y 1 L N
+F0 "SW" -200 250 50 H V L BNN
+F1 "DIP-SLIDE-SWITCH(3P-11.6X4.0X5.4+2.0MM)" -200 -250 50 H V L BNN
+F2 "SW3-2.5-11.6X4.0X5.4+2.0MM" 0 0 50 H I L BNN
+F3 "0.42 USD" 0 0 50 H I L BNN "Price"
+F4 "E-Switch" 0 0 50 H I L BNN "MF"
+F5 "EG Series SPDT On-On Vertical Through Hole Slide Switch" 0 0 50 H I L BNN "Description"
+F6 "FakePackage u" 0 0 50 H I L BNN "Package"
+F7 "Good" 0 0 50 H I L BNN "Availability"
+F8 "EG1218" 0 0 50 H I L BNN "MP"
+DRAW
+C -100 0 25 0 0 6 N
+P 2 0 0 6 -100 25 0 100 N
+C 0 125 25 0 0 6 N
+C 100 0 25 0 0 6 N
+P 2 0 0 6 200 -200 200 0 N
+P 2 0 0 6 200 0 200 250 N
+P 2 0 0 6 200 250 0 250 N
+P 2 0 0 6 0 250 -200 250 N
+P 2 0 0 6 -200 250 -200 0 N
+P 2 0 0 6 -200 0 -200 -200 N
+P 2 0 0 6 -200 -200 200 -200 N
+P 2 0 0 6 -250 0 -200 0 N
+P 2 0 0 6 0 250 0 300 N
+P 2 0 0 6 250 0 200 0 N
+P 2 0 0 6 0 150 0 250 N
+P 2 0 0 6 -200 0 -125 0 N
+P 2 0 0 6 125 0 200 0 N
+X 1 1 -350 0 100 R 40 40 0 0 B 
+X 2 2 0 400 100 D 40 40 0 0 B 
+X 3 3 350 0 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
